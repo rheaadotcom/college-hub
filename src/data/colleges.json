@@ -1,0 +1,687 @@
+[
+  {
+    "id": 1,
+    "name": "Indian Institute of Technology Madras",
+    "shortName": "IIT Madras",
+    "location": "Chennai, Tamil Nadu",
+    "type": "Public",
+    "rating": 4.9,
+    "fees": "₹2,14,500/yr",
+    "established": 1959,
+    "overview": "IIT Madras is one of the premier engineering and technology institutes in India, known for its strong focus on research and innovation.",
+    "placements": {
+      "averagePackage": "₹21.48 LPA",
+      "highestPackage": "₹1.98 CPA",
+      "placementRate": "92%",
+      "topRecruiters": ["Google", "Microsoft", "Amazon", "Goldman Sachs"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Computer Science and Engineering",
+        "duration": "4 Years",
+        "fees": "₹2,14,500/yr"
+      },
+      {
+        "name": "B.Tech Electrical Engineering",
+        "duration": "4 Years",
+        "fees": "₹2,14,500/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Rahul S.",
+        "rating": 5,
+        "comment": "Excellent faculty and research opportunities."
+      }
+    ],
+    "tags": ["Engineering", "Research", "Top Tier"],
+    "nirf": 1,
+    "examsAccepted": ["JEE Advanced"]
+  },
+  {
+    "id": 2,
+    "name": "Indian Institute of Technology Delhi",
+    "shortName": "IIT Delhi",
+    "location": "New Delhi, Delhi",
+    "type": "Public",
+    "rating": 4.8,
+    "fees": "₹2,35,700/yr",
+    "established": 1961,
+    "overview": "IIT Delhi is a globally renowned institute for engineering education and research.",
+    "placements": {
+      "averagePackage": "₹20.50 LPA",
+      "highestPackage": "₹2.00 CPA",
+      "placementRate": "90%",
+      "topRecruiters": ["Microsoft", "Intel", "Qualcomm", "BCG"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Computer Science and Engineering",
+        "duration": "4 Years",
+        "fees": "₹2,35,700/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Amit K.",
+        "rating": 5,
+        "comment": "Best campus life and placement opportunities."
+      }
+    ],
+    "tags": ["Engineering", "Global Rankings", "Startup Culture"],
+    "nirf": 2,
+    "examsAccepted": ["JEE Advanced"]
+  },
+  {
+    "id": 3,
+    "name": "Indian Institute of Technology Bombay",
+    "shortName": "IIT Bombay",
+    "location": "Mumbai, Maharashtra",
+    "type": "Public",
+    "rating": 4.9,
+    "fees": "₹2,30,000/yr",
+    "established": 1958,
+    "overview": "Recognised worldwide as a leader in the field of engineering education and research.",
+    "placements": {
+      "averagePackage": "₹21.82 LPA",
+      "highestPackage": "₹3.67 CPA",
+      "placementRate": "93%",
+      "topRecruiters": ["Optiver", "Honda R&D", "Uber", "Rubrik"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Computer Science and Engineering",
+        "duration": "4 Years",
+        "fees": "₹2,30,000/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Sneha M.",
+        "rating": 5,
+        "comment": "Unparalleled peer group and tech fest."
+      }
+    ],
+    "tags": ["Engineering", "Innovation", "Top Tier"],
+    "nirf": 3,
+    "examsAccepted": ["JEE Advanced"]
+  },
+  {
+    "id": 4,
+    "name": "Indian Institute of Technology Kanpur",
+    "shortName": "IIT Kanpur",
+    "location": "Kanpur, Uttar Pradesh",
+    "type": "Public",
+    "rating": 4.8,
+    "fees": "₹2,20,000/yr",
+    "established": 1959,
+    "overview": "Famous for its rigorous academic curriculum and extensive research facilities.",
+    "placements": {
+      "averagePackage": "₹22.07 LPA",
+      "highestPackage": "₹1.90 CPA",
+      "placementRate": "91%",
+      "topRecruiters": ["Jane Street", "Glean", "Tower Research", "McKinsey"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Electrical Engineering",
+        "duration": "4 Years",
+        "fees": "₹2,20,000/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Vikram R.",
+        "rating": 4.5,
+        "comment": "Academically intense but totally worth it."
+      }
+    ],
+    "tags": ["Engineering", "Core Research"],
+    "nirf": 4,
+    "examsAccepted": ["JEE Advanced"]
+  },
+  {
+    "id": 5,
+    "name": "Indian Institute of Technology Kharagpur",
+    "shortName": "IIT Kharagpur",
+    "location": "Kharagpur, West Bengal",
+    "type": "Public",
+    "rating": 4.7,
+    "fees": "₹2,23,600/yr",
+    "established": 1951,
+    "overview": "The oldest IIT with the largest campus, offering diverse programs.",
+    "placements": {
+      "averagePackage": "₹19.36 LPA",
+      "highestPackage": "₹2.60 CPA",
+      "placementRate": "88%",
+      "topRecruiters": ["Apple", "Google", "JP Morgan", "Airbus"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Computer Science and Engineering",
+        "duration": "4 Years",
+        "fees": "₹2,23,600/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Anjali T.",
+        "rating": 4.5,
+        "comment": "Vibrant campus and numerous societies."
+      }
+    ],
+    "tags": ["Engineering", "Oldest IIT", "Large Campus"],
+    "nirf": 5,
+    "examsAccepted": ["JEE Advanced"]
+  },
+  {
+    "id": 6,
+    "name": "Indian Institute of Technology Roorkee",
+    "shortName": "IIT Roorkee",
+    "location": "Roorkee, Uttarakhand",
+    "type": "Public",
+    "rating": 4.7,
+    "fees": "₹2,25,000/yr",
+    "established": 1847,
+    "overview": "A heritage institute known for civil engineering and now all tech branches.",
+    "placements": {
+      "averagePackage": "₹18.34 LPA",
+      "highestPackage": "₹2.15 CPA",
+      "placementRate": "89%",
+      "topRecruiters": ["Amazon", "Uber", "Samsung", "Schlumberger"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Civil Engineering",
+        "duration": "4 Years",
+        "fees": "₹2,25,000/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Pranav K.",
+        "rating": 4.5,
+        "comment": "Historic campus with modern facilities."
+      }
+    ],
+    "tags": ["Engineering", "Heritage", "Architecture"],
+    "nirf": 6,
+    "examsAccepted": ["JEE Advanced"]
+  },
+  {
+    "id": 7,
+    "name": "Indian Institute of Technology Guwahati",
+    "shortName": "IIT Guwahati",
+    "location": "Guwahati, Assam",
+    "type": "Public",
+    "rating": 4.6,
+    "fees": "₹2,19,000/yr",
+    "established": 1994,
+    "overview": "Known for its beautiful campus and strong technical curriculum.",
+    "placements": {
+      "averagePackage": "₹17.80 LPA",
+      "highestPackage": "₹1.20 CPA",
+      "placementRate": "85%",
+      "topRecruiters": ["Oracle", "TCS", "Infosys", "Cisco"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Mechanical Engineering",
+        "duration": "4 Years",
+        "fees": "₹2,19,000/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Riya D.",
+        "rating": 4.5,
+        "comment": "Most beautiful campus in India."
+      }
+    ],
+    "tags": ["Engineering", "Beautiful Campus"],
+    "nirf": 7,
+    "examsAccepted": ["JEE Advanced"]
+  },
+  {
+    "id": 8,
+    "name": "Birla Institute of Technology and Science",
+    "shortName": "BITS Pilani",
+    "location": "Pilani, Rajasthan",
+    "type": "Private",
+    "rating": 4.8,
+    "fees": "₹5,41,500/yr",
+    "established": 1964,
+    "overview": "India's premier private technical university with zero attendance policy.",
+    "placements": {
+      "averagePackage": "₹20.90 LPA",
+      "highestPackage": "₹1.33 CPA",
+      "placementRate": "94%",
+      "topRecruiters": ["DE Shaw", "Atlassian", "Flipkart", "Paytm"]
+    },
+    "courses": [
+      {
+        "name": "B.E. Computer Science",
+        "duration": "4 Years",
+        "fees": "₹5,41,500/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Rohan V.",
+        "rating": 5,
+        "comment": "Freedom to choose subjects and timetables."
+      }
+    ],
+    "tags": ["Engineering", "Private", "Zero Attendance"],
+    "nirf": 25,
+    "examsAccepted": ["BITSAT"]
+  },
+  {
+    "id": 9,
+    "name": "National Institute of Technology Tiruchirappalli",
+    "shortName": "NIT Trichy",
+    "location": "Tiruchirappalli, Tamil Nadu",
+    "type": "Public",
+    "rating": 4.6,
+    "fees": "₹1,49,250/yr",
+    "established": 1964,
+    "overview": "The top-ranked NIT in India, offering excellent academic and placement records.",
+    "placements": {
+      "averagePackage": "₹15.86 LPA",
+      "highestPackage": "₹1.08 CPA",
+      "placementRate": "90%",
+      "topRecruiters": ["Morgan Stanley", "Visa", "Sony", "Texas Instruments"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Computer Science and Engineering",
+        "duration": "4 Years",
+        "fees": "₹1,49,250/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Karthik P.",
+        "rating": 4.5,
+        "comment": "Best ROI among engineering colleges."
+      }
+    ],
+    "tags": ["Engineering", "Top NIT"],
+    "nirf": 8,
+    "examsAccepted": ["JEE Main"]
+  },
+  {
+    "id": 10,
+    "name": "National Institute of Technology Surathkal",
+    "shortName": "NIT Surathkal",
+    "location": "Mangalore, Karnataka",
+    "type": "Public",
+    "rating": 4.6,
+    "fees": "₹1,40,000/yr",
+    "established": 1960,
+    "overview": "Known for its private beach and strong technical education.",
+    "placements": {
+      "averagePackage": "₹15.00 LPA",
+      "highestPackage": "₹51.00 LPA",
+      "placementRate": "88%",
+      "topRecruiters": ["Intuit", "Adobe", "Qualcomm", "NVIDIA"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Information Technology",
+        "duration": "4 Years",
+        "fees": "₹1,40,000/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Aakash G.",
+        "rating": 4.5,
+        "comment": "Amazing campus with a private beach."
+      }
+    ],
+    "tags": ["Engineering", "Beach Campus"],
+    "nirf": 10,
+    "examsAccepted": ["JEE Main"]
+  },
+  {
+    "id": 11,
+    "name": "Delhi Technological University",
+    "shortName": "DTU",
+    "location": "New Delhi, Delhi",
+    "type": "Public",
+    "rating": 4.5,
+    "fees": "₹2,19,000/yr",
+    "established": 1941,
+    "overview": "Formerly DCE, a top tier state university with massive tech culture.",
+    "placements": {
+      "averagePackage": "₹15.16 LPA",
+      "highestPackage": "₹1.80 CPA",
+      "placementRate": "85%",
+      "topRecruiters": ["Sprinklr", "Apple", "Google", "Goldman Sachs"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Computer Engineering",
+        "duration": "4 Years",
+        "fees": "₹2,19,000/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Gaurav S.",
+        "rating": 4,
+        "comment": "Great placements and huge alumni network."
+      }
+    ],
+    "tags": ["Engineering", "State University", "Delhi"],
+    "nirf": 29,
+    "examsAccepted": ["JEE Main", "JAC Delhi"]
+  },
+  {
+    "id": 12,
+    "name": "Netaji Subhas University of Technology",
+    "shortName": "NSUT",
+    "location": "New Delhi, Delhi",
+    "type": "Public",
+    "rating": 4.4,
+    "fees": "₹2,20,000/yr",
+    "established": 1983,
+    "overview": "Top state university in Delhi known for strong coding culture.",
+    "placements": {
+      "averagePackage": "₹16.00 LPA",
+      "highestPackage": "₹1.25 CPA",
+      "placementRate": "82%",
+      "topRecruiters": ["Microsoft", "Amazon", "Sprinklr", "De Shaw"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Computer Science and Engineering",
+        "duration": "4 Years",
+        "fees": "₹2,20,000/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Yash K.",
+        "rating": 4.5,
+        "comment": "Coding culture is exceptionally good."
+      }
+    ],
+    "tags": ["Engineering", "Coding Culture", "Delhi"],
+    "nirf": 79,
+    "examsAccepted": ["JEE Main", "JAC Delhi"]
+  },
+  {
+    "id": 13,
+    "name": "Vellore Institute of Technology",
+    "shortName": "VIT Vellore",
+    "location": "Vellore, Tamil Nadu",
+    "type": "Private",
+    "rating": 4.3,
+    "fees": "₹1,98,000/yr",
+    "established": 1984,
+    "overview": "Private deemed university with huge intake and good infrastructure.",
+    "placements": {
+      "averagePackage": "₹9.23 LPA",
+      "highestPackage": "₹1.02 CPA",
+      "placementRate": "90%",
+      "topRecruiters": ["TCS", "Cognizant", "Wipro", "Intel"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Computer Science and Engineering",
+        "duration": "4 Years",
+        "fees": "₹1,98,000/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Aditi C.",
+        "rating": 4,
+        "comment": "Strict rules but good opportunities if you work hard."
+      }
+    ],
+    "tags": ["Engineering", "Private", "Large Student Base"],
+    "nirf": 11,
+    "examsAccepted": ["VITEEE"]
+  },
+  {
+    "id": 14,
+    "name": "SRM Institute of Science and Technology",
+    "shortName": "SRM Chennai",
+    "location": "Chennai, Tamil Nadu",
+    "type": "Private",
+    "rating": 4.1,
+    "fees": "₹2,50,000/yr",
+    "established": 1985,
+    "overview": "Well-known private institute offering a wide variety of courses.",
+    "placements": {
+      "averagePackage": "₹7.50 LPA",
+      "highestPackage": "₹50.00 LPA",
+      "placementRate": "85%",
+      "topRecruiters": ["Cognizant", "TCS", "Amazon", "IBM"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Computer Science",
+        "duration": "4 Years",
+        "fees": "₹2,50,000/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Raj S.",
+        "rating": 4,
+        "comment": "Great infrastructure and facilities."
+      }
+    ],
+    "tags": ["Engineering", "Private", "Diverse Courses"],
+    "nirf": 24,
+    "examsAccepted": ["SRMJEEE"]
+  },
+  {
+    "id": 15,
+    "name": "National Institute of Technology Warangal",
+    "shortName": "NIT Warangal",
+    "location": "Warangal, Telangana",
+    "type": "Public",
+    "rating": 4.5,
+    "fees": "₹1,45,000/yr",
+    "established": 1959,
+    "overview": "First among the NITs, renowned for academics and research.",
+    "placements": {
+      "averagePackage": "₹15.92 LPA",
+      "highestPackage": "₹88.00 LPA",
+      "placementRate": "87%",
+      "topRecruiters": ["Qualcomm", "Oracle", "SAP", "Cisco"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Electronics and Communication",
+        "duration": "4 Years",
+        "fees": "₹1,45,000/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Nikhil R.",
+        "rating": 4.5,
+        "comment": "Excellent faculty and core placements."
+      }
+    ],
+    "tags": ["Engineering", "Top NIT", "Core Branches"],
+    "nirf": 21,
+    "examsAccepted": ["JEE Main"]
+  },
+  {
+    "id": 16,
+    "name": "International Institute of Information Technology",
+    "shortName": "IIIT Hyderabad",
+    "location": "Hyderabad, Telangana",
+    "type": "Private",
+    "rating": 4.8,
+    "fees": "₹3,30,000/yr",
+    "established": 1998,
+    "overview": "India's premier institute for computer science research and education.",
+    "placements": {
+      "averagePackage": "₹32.00 LPA",
+      "highestPackage": "₹74.00 LPA",
+      "placementRate": "100%",
+      "topRecruiters": ["Apple", "Google", "Facebook", "Microsoft"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Computer Science and Engineering",
+        "duration": "4 Years",
+        "fees": "₹3,30,000/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Tarun B.",
+        "rating": 5,
+        "comment": "Top notch coding culture, better than many IITs."
+      }
+    ],
+    "tags": ["Engineering", "Computer Science Focus", "Research"],
+    "nirf": 62,
+    "examsAccepted": ["JEE Main", "UGEE"]
+  },
+  {
+    "id": 17,
+    "name": "Indian Institute of Technology Hyderabad",
+    "shortName": "IIT Hyderabad",
+    "location": "Hyderabad, Telangana",
+    "type": "Public",
+    "rating": 4.6,
+    "fees": "₹2,24,000/yr",
+    "established": 2008,
+    "overview": "One of the best second-generation IITs with modern infrastructure.",
+    "placements": {
+      "averagePackage": "₹20.00 LPA",
+      "highestPackage": "₹65.00 LPA",
+      "placementRate": "88%",
+      "topRecruiters": ["TSMC", "Microsoft", "Amazon", "Rakuten"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Artificial Intelligence",
+        "duration": "4 Years",
+        "fees": "₹2,24,000/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Ankit J.",
+        "rating": 4.5,
+        "comment": "Fractal academics system is very unique."
+      }
+    ],
+    "tags": ["Engineering", "Modern Campus", "Fast Growing"],
+    "nirf": 8,
+    "examsAccepted": ["JEE Advanced"]
+  },
+  {
+    "id": 18,
+    "name": "Manipal Institute of Technology",
+    "shortName": "MIT Manipal",
+    "location": "Manipal, Karnataka",
+    "type": "Private",
+    "rating": 4.2,
+    "fees": "₹3,35,000/yr",
+    "established": 1957,
+    "overview": "Top private college known for vibrant campus life and diverse student crowd.",
+    "placements": {
+      "averagePackage": "₹10.50 LPA",
+      "highestPackage": "₹44.00 LPA",
+      "placementRate": "82%",
+      "topRecruiters": ["Microsoft", "Amazon", "Gartner", "Deloitte"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Computer and Communication",
+        "duration": "4 Years",
+        "fees": "₹3,35,000/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Isha W.",
+        "rating": 4,
+        "comment": "Amazing college life, lots of clubs and activities."
+      }
+    ],
+    "tags": ["Engineering", "Private", "Campus Life"],
+    "nirf": 55,
+    "examsAccepted": ["MET"]
+  },
+  {
+    "id": 19,
+    "name": "Indian Institute of Technology BHU",
+    "shortName": "IIT BHU",
+    "location": "Varanasi, Uttar Pradesh",
+    "type": "Public",
+    "rating": 4.6,
+    "fees": "₹2,16,000/yr",
+    "established": 1919,
+    "overview": "Heritage university integrated into the IIT system.",
+    "placements": {
+      "averagePackage": "₹19.50 LPA",
+      "highestPackage": "₹1.20 CPA",
+      "placementRate": "89%",
+      "topRecruiters": ["Navi", "Uber", "Sprinklr", "Mastercard"]
+    },
+    "courses": [
+      {
+        "name": "B.Tech Computer Science and Engineering",
+        "duration": "4 Years",
+        "fees": "₹2,16,000/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Siddharth C.",
+        "rating": 4.5,
+        "comment": "Open campus but fantastic alumni network."
+      }
+    ],
+    "tags": ["Engineering", "Heritage", "Strong Alumni"],
+    "nirf": 13,
+    "examsAccepted": ["JEE Advanced"]
+  },
+  {
+    "id": 20,
+    "name": "Jadavpur University",
+    "shortName": "JU",
+    "location": "Kolkata, West Bengal",
+    "type": "Public",
+    "rating": 4.7,
+    "fees": "₹2,400/yr",
+    "established": 1955,
+    "overview": "Known for minimal fees and high return on investment.",
+    "placements": {
+      "averagePackage": "₹10.00 LPA",
+      "highestPackage": "₹85.00 LPA",
+      "placementRate": "84%",
+      "topRecruiters": ["Texas Instruments", "Atlassian", "Samsung", "Airbus"]
+    },
+    "courses": [
+      {
+        "name": "B.E. Information Technology",
+        "duration": "4 Years",
+        "fees": "₹2,400/yr"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Ayan D.",
+        "rating": 5,
+        "comment": "Unbelievable ROI and strong research focus."
+      }
+    ],
+    "tags": ["Engineering", "State University", "Best ROI"],
+    "nirf": 11,
+    "examsAccepted": ["WBJEE"]
+  }
+]

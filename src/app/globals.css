@@ -1,0 +1,174 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F8FCFF;
+  --foreground: #03045E;
+  --card: #FFFFFF;
+  --primary: #03045E;
+  --secondary: #0077B6;
+  --accent: #00B4D8;
+  --muted: #0077B6;
+  --border: rgba(0, 119, 182, 0.12);
+}
+
+.dark {
+  --background: #020326;
+  --foreground: #FFFFFF;
+  --card: #06113D;
+  --primary: #00B4D8;
+  --secondary: #CAF0F8;
+  --accent: #00B4D8;
+  --muted: #90E0EF;
+  --border: rgba(144, 224, 239, 0.1);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans, Arial, sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Glassmorphism utilities */
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(0, 119, 182, 0.12);
+  box-shadow: 0 8px 32px rgba(3, 4, 94, 0.05);
+}
+
+.glass-dark {
+  background: rgba(3, 4, 94, 0.7);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(144, 224, 239, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+/* Specific component styles */
+.bg-ocean-gradient {
+  background: linear-gradient(135deg, #03045E 0%, #0077B6 50%, #00B4D8 100%);
+}
+
+.text-ocean-gradient {
+  background: linear-gradient(135deg, #CAF0F8 0%, #90E0EF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glow effects */
+.glow-cyan {
+  box-shadow: 0 0 40px rgba(0, 180, 216, 0.25);
+}
+
+.glow-navy {
+  box-shadow: 0 0 40px rgba(3, 4, 94, 0.25);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 119, 182, 0.3);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 119, 182, 0.6);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Card hover glow */
+.card-hover {
+  transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(3, 4, 94, 0.08), 0 8px 16px rgba(0,0,0,0.04);
+}
+
+.dark .card-hover:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 180, 216, 0.2);
+}
+
+/* Animated gradients & blobs */
+@keyframes blob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+}
+
+.animate-blob {
+  animation: blob 12s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Spotlight card effect */
+.spotlight-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.spotlight-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(0, 180, 216, 0.12) 0%, transparent 50%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dark .spotlight-card::before {
+  background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(0, 180, 216, 0.15) 0%, transparent 60%);
+}
+
+.spotlight-card:hover::before {
+  opacity: 1;
+}
