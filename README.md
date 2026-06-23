@@ -1,36 +1,190 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 CollegeHub - College Discovery Platform
 
-## Getting Started
+A modern College Discovery Platform built with Next.js, TypeScript, and Tailwind CSS that helps students explore, compare, and evaluate colleges through an intuitive and responsive interface.
 
-First, run the development server:
+## 🚀 Live Demo
+
+Live URL: https://college-hub-eight.vercel.app/
+
+## ✨ Features
+
+### 🔍 Smart College Search
+
+* Search colleges by name
+* Instant search results
+* Responsive search experience
+
+### 🎯 Advanced Filtering
+
+* Filter by college type
+* Filter by location
+* Filter by rating
+* Combined filtering support
+
+### 📊 College Insights
+
+* NIRF rankings
+* Placement statistics
+* Fee structure
+* Courses offered
+* Student reviews
+
+### 🏫 Detailed College Pages
+
+* Dynamic routing with Next.js
+* Comprehensive college information
+* Placement and recruiter details
+* Course information
+* Review section
+
+### ⚖️ College Comparison
+
+* Compare multiple colleges side-by-side
+* Placement comparison
+* Fee comparison
+* Ranking comparison
+* Rating comparison
+
+### 🌙 Theme Support
+
+* Light Mode
+* Dark Mode
+* System Theme Detection
+
+### 📱 Responsive Design
+
+* Mobile-first approach
+* Tablet support
+* Desktop optimized
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js 15
+* React
+* TypeScript
+* Tailwind CSS
+
+### UI & Styling
+
+* Lucide React
+* Framer Motion
+* Glassmorphism UI
+* Custom Design System
+
+### State Management
+
+* React Context API
+* React Hooks
+
+### Deployment
+
+* Vercel
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+├── app/
+│   ├── page.tsx
+│   ├── college/
+│   └── compare/
+├── components/
+├── context/
+├── data/
+├── types/
+└── lib/
+```
+
+---
+
+## 🎨 Design Highlights
+
+* Modern startup-inspired interface
+* Premium hero section
+* Responsive layouts
+* Smooth animations
+* Accessible UI components
+* Consistent design language
+
+---
+
+## ⚡ Getting Started
+
+### Clone Repository
+
+```bash
+git clone <repository-url>
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Build Production Version
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎯 Design Decisions
 
-To learn more about Next.js, take a look at the following resources:
+* Used TypeScript for type safety and maintainability.
+* Adopted a component-based architecture for scalability.
+* Implemented dynamic routing using Next.js App Router.
+* Used mock JSON data to focus on frontend experience and product design.
+* Prioritized responsive design and user experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧩 Edge Cases Handled
 
-## Deploy on Vercel
+* Invalid college routes
+* Empty search results
+* No colleges selected for comparison
+* Responsive layouts across devices
+* Theme persistence across sessions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔮 Future Improvements
+
+* Authentication & user accounts
+* Save favorite colleges
+* Real backend integration
+* College recommendation engine
+* AI-powered college matching
+* Personalized dashboards
+
+---
+
+## 👩‍💻 Author
+
+**Riya Bhardwaj**
+
+* B.Tech CSE
+* Frontend Developer
+* Next.js & React Enthusiast
+
+LinkedIn: [Add LinkedIn Link]
+GitHub: [Add GitHub Profile]
+
+---
+
+Built with ❤️ using Next.js, TypeScript, and Tailwind CSS.
