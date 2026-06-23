@@ -32,7 +32,7 @@ export default async function CollegeDetails({ params }: { params: Promise<{ id:
         </div>
         <h1 className="text-3xl font-black text-foreground mb-3">College Not Found</h1>
         <p className="text-muted mb-8 text-center max-w-md">
-          We couldn't find the college you're looking for. It may have been removed or the ID is incorrect.
+          We couldn&apos;t find the college you&apos;re looking for. It may have been removed or the ID is incorrect.
         </p>
         <Link
           href="/"
@@ -225,7 +225,7 @@ export default async function CollegeDetails({ params }: { params: Promise<{ id:
                   className="relative bg-card/80 rounded-2xl border border-border p-5 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col"
                 >
                   {/* Quotemark */}
-                  <span className="absolute top-4 right-5 text-5xl text-accent/20 font-serif leading-none select-none">"</span>
+                  <span className="absolute top-4 right-5 text-5xl text-accent/20 font-serif leading-none select-none">&quot;</span>
                   <div className="flex items-center justify-between mb-3">
                     <div className="flex items-center gap-2">
                       <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-sm">
@@ -238,7 +238,7 @@ export default async function CollegeDetails({ params }: { params: Promise<{ id:
                       <span className="font-bold text-foreground">{review.rating}.0</span>
                     </div>
                   </div>
-                  <p className="text-muted text-sm leading-relaxed italic flex-1">"{review.comment}"</p>
+                  <p className="text-muted text-sm leading-relaxed italic flex-1">&quot;{review.comment}&quot;</p>
                 </div>
               ))}
             </div>

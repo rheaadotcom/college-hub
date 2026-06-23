@@ -144,10 +144,10 @@ export default function Home() {
           {/* ── Results header ── */}
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-2xl font-black text-foreground">
+              <h2 className="text-2xl font-bold text-primary">
                 {filteredColleges.length > 0 ? (
                   <>
-                    <span className="text-ocean-gradient">{filteredColleges.length}</span>{" "}
+                    <span className="text-primary-gradient">{filteredColleges.length}</span>{" "}
                     {filteredColleges.length === 1 ? "College" : "Colleges"} Found
                   </>
                 ) : "No Results"}
@@ -182,9 +182,9 @@ export default function Home() {
               <div className="w-20 h-20 rounded-2xl bg-card/10 dark:bg-card/30 flex items-center justify-center mb-6">
                 <SearchX className="w-10 h-10 text-muted" />
               </div>
-              <h3 className="text-2xl font-black text-foreground mb-2">No Colleges Found</h3>
+              <h3 className="text-2xl font-bold text-primary mb-2">No Colleges Found</h3>
               <p className="text-muted max-w-sm leading-relaxed mb-8">
-                We couldn't find colleges matching your current filters. Try broadening your search.
+                We couldn&apos;t find colleges matching your current filters. Try broadening your search.
               </p>
               <button
                 onClick={() => {
@@ -193,7 +193,7 @@ export default function Home() {
                   setTypeFilter("");
                   setRatingFilter("");
                 }}
-                className="px-8 py-3.5 bg-ocean-gradient text-white font-bold rounded-2xl shadow-lg shadow-accent/30 hover:shadow-accent/50 hover:scale-[1.02] active:scale-[0.97] transition-all"
+                className="px-8 py-3.5 bg-primary-gradient text-white font-bold rounded-2xl shadow-lg shadow-accent/30 hover:shadow-accent/50 hover:scale-[1.02] active:scale-[0.97] transition-all"
               >
                 Clear All Filters
               </button>

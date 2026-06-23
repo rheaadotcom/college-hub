@@ -11,12 +11,7 @@ interface CollegeCardProps {
   college: College;
 }
 
-const TYPE_STYLES: Record<string, string> = {
-  IIT: "bg-primary/10 text-primary border-primary/20 dark:bg-primary/30 dark:text-accent dark:border-primary/50",
-  NIT: "bg-secondary/10 text-secondary border-secondary/20 dark:bg-secondary/30 dark:text-secondary dark:border-secondary/50",
-  Private: "bg-accent/10 text-accent border-accent/20 dark:bg-accent/30 dark:text-accent dark:border-accent/50",
-  Public: "bg-muted/10 text-muted border-muted/20 dark:bg-muted/20 dark:text-muted dark:border-muted/30",
-};
+
 
 const TYPE_BANNER: Record<string, string> = {
   IIT: "from-primary to-secondary",
@@ -27,10 +22,6 @@ const TYPE_BANNER: Record<string, string> = {
 
 function getBannerGradient(type: string) {
   return TYPE_BANNER[type] ?? "from-slate-600 via-slate-700 to-slate-800";
-}
-
-function getTypeStyle(type: string) {
-  return TYPE_STYLES[type] ?? "bg-slate-50 text-slate-700 border-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:border-slate-700";
 }
 
 export default function CollegeCard({ college }: CollegeCardProps) {
@@ -114,14 +105,14 @@ export default function CollegeCard({ college }: CollegeCardProps) {
         <div className="space-y-2.5 mt-auto">
           {/* Location */}
           <div className="flex items-center gap-2 text-sm text-muted">
-            <MapPin className="w-3.5 h-3.5 text-blue-500 shrink-0" />
+            <MapPin className="w-3.5 h-3.5 text-secondary shrink-0" />
             <span className="truncate">{college.location}</span>
           </div>
 
           {/* Fees */}
           <div className="flex items-center justify-between">
             <span className="text-xs text-muted font-medium">Annual Fees</span>
-            <span className="text-sm font-bold text-foreground">{college.fees}</span>
+            <span className="text-sm font-bold text-primary">{college.fees}</span>
           </div>
 
           {/* Avg Package */}
@@ -155,7 +146,7 @@ export default function CollegeCard({ college }: CollegeCardProps) {
       <div className="px-5 py-3.5 border-t border-slate-200 dark:border-slate-800/60 flex items-center justify-between gap-3 bg-background/50">
         <Link
           href={`/college/${college.id}`}
-          className="flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-accent hover:text-indigo-800 transition-colors group/link"
+          className="flex items-center gap-1.5 text-sm font-semibold text-primary dark:text-accent hover:text-secondary transition-colors group/link"
         >
           View Details
           <ArrowRight className="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform" />

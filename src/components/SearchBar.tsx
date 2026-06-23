@@ -138,7 +138,7 @@ export default function SearchBar({
             onClick={() => setTypeFilter(typeFilter === type ? "" : type)}
             className={`px-4 py-1.5 rounded-full text-xs font-bold border transition-all duration-200 ${
               typeFilter === type
-                ? "bg-ocean-gradient text-white border-transparent shadow-sm shadow-accent/30"
+                ? "bg-primary-gradient text-white border-transparent shadow-sm shadow-accent/30"
                 : "bg-card/50 text-muted border-border hover:border-accent/50 hover:text-accent transition-colors"
             }`}
           >

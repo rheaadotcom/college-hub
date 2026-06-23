@@ -3,7 +3,7 @@
 import { useCompare } from "@/context/CompareContext";
 import {
   ArrowLeft, Trash2, Building2, MapPin, Star, Trophy,
-  Calendar, Briefcase, TrendingUp, CheckCircle, Plus, GraduationCap
+  Calendar, Briefcase, CheckCircle, Plus, GraduationCap
 } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -62,11 +62,11 @@ export default function ComparePage() {
           </div>
           <h1 className="text-3xl font-black text-foreground mb-3">No Colleges Selected</h1>
           <p className="text-muted mb-8 max-w-md leading-relaxed">
-            You haven't selected any colleges to compare. Go back to the homepage and select up to 3 colleges using the Compare button.
+            You haven&apos;t selected any colleges to compare. Go back to the homepage and select up to 3 colleges using the Compare button.
           </p>
           <Link
             href="/"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-ocean-gradient text-white font-bold rounded-2xl shadow-xl shadow-accent/20 hover:shadow-accent/40 hover:scale-[1.02] active:scale-[0.97] transition-all"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-primary-gradient text-white font-bold rounded-2xl shadow-xl shadow-accent/20 hover:shadow-accent/40 hover:scale-[1.02] active:scale-[0.97] transition-all"
           >
             <ArrowLeft className="w-4 h-4" /> Browse Colleges
           </Link>
