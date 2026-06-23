@@ -1,25 +1,25 @@
 @import "tailwindcss";
 
 :root {
-  --background: #F8FCFF;
-  --foreground: #03045E;
-  --card: #FFFFFF;
-  --primary: #03045E;
-  --secondary: #0077B6;
-  --accent: #00B4D8;
-  --muted: #0077B6;
-  --border: rgba(0, 119, 182, 0.12);
+  --background: #FFF4E1; /* Light background */
+  --foreground: #1A312C; /* Primary text */
+  --card: #FFFFFF; /* Card background */
+  --primary: #1A312C;
+  --secondary: #428475;
+  --accent: #89D7B7;
+  --muted: #B9D5CB;
+  --border: rgba(137,215,183,0.12);
 }
 
 .dark {
-  --background: #020326;
-  --foreground: #FFFFFF;
-  --card: #06113D;
-  --primary: #00B4D8;
-  --secondary: #CAF0F8;
-  --accent: #00B4D8;
-  --muted: #90E0EF;
-  --border: rgba(144, 224, 239, 0.1);
+  --background: #0D1815; /* Dark background */
+  --foreground: #FFF4E1; /* Dark mode primary text */
+  --card: #14231F; /* Dark card */
+  --primary: #89D7B7;
+  --secondary: #428475;
+  --accent: #89D7B7;
+  --muted: #B9D5CB;
+  --border: rgba(137,215,183,0.1);
 }
 
 @theme inline {
@@ -69,12 +69,12 @@ body {
 }
 
 /* Specific component styles */
-.bg-ocean-gradient {
-  background: linear-gradient(135deg, #03045E 0%, #0077B6 50%, #00B4D8 100%);
+.bg-primary-gradient {
+  background: linear-gradient(135deg, #1A312C 0%, #428475 50%, #89D7B7 100%);
 }
 
-.text-ocean-gradient {
-  background: linear-gradient(135deg, #CAF0F8 0%, #90E0EF 100%);
+.text-primary-gradient {
+  background: linear-gradient(135deg, #FFF4E1 0%, #B7E4D3 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -99,12 +99,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 119, 182, 0.3);
+  background: rgba(137, 215, 183, 0.3);
   border-radius: 999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 119, 182, 0.6);
+  background: rgba(137, 215, 183, 0.6);
 }
 
 /* Gradient text */
@@ -122,11 +122,11 @@ body {
 
 .card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 40px rgba(3, 4, 94, 0.08), 0 8px 16px rgba(0,0,0,0.04);
+  box-shadow: 0 20px 40px rgba(26, 49, 44, 0.08), 0 8px 16px rgba(0,0,0,0.04);
 }
 
 .dark .card-hover:hover {
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 180, 216, 0.2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(137, 215, 183, 0.2);
 }
 
 /* Animated gradients & blobs */
